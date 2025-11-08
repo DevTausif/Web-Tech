@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title> </head>
+<body>
+   <h2>Donor Information</h2>
+    <form action="#" method="post">
+
+        <label>First Name:</label><br>
+        <input type="text" name="fname"><br><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="lname"><br><br>
+
+        <label>Company:</label><br>
+        <input type="text" name="company"><br><br>
+
+        <label>Address 1:</label><br>
+        <input type="text" name="address1"><br><br>
+
+        <label>Address 2:</label><br>
+        <input type="text" name="address2"><br><br>
+
+        <label>City:</label><br>
+        <input type="text" name="city"><br><br>
+
+        <label>State:</label><br>
+        <select name="state">
+            <option value="">Select a State</option>
+            <option value="dhaka">Dhaka</option>
+            <option value="chittagong">Chittagong</option>
+            <option value="rajshahi">Rajshahi</option>
+        </select><br><br>
+
+        <label>Zip Code:</label><br>
+        <input type="text" name="zip"><br><br>
+
+        <label>Country:</label><br>
+        <select name="country">
+            <option value="">Select a Country</option>
+            <option value="bangladesh">Bangladesh</option>
+            <option value="india">India</option>
+            <option value="nepal">Nepal</option>
+        </select><br><br>
+
+        <label>Phone:</label><br>
+        <input type="text" name="phone"><br><br>
+
+        <label>Fax:</label><br>
+        <input type="text" name="fax"><br><br>
+
+        <label>Donation Amount:</label><br>
+        <input type="radio" name="amount" value="none"> None
+        <input type="radio" name="amount" value="50">$50
+        <input type="radio" name="amount" value="75">$75
+        <input type="radio" name="amount" value="100">$100
+        <input type="radio" name="amount" value="250">$250
+        <input type="radio" name="amount" value="other">Other<br><br>
+
+        <input type="checkbox" name="recurring" value="yes"> I am interested in giving on a regular basis.<br><br>
+
+        <h2>Honorarium and Memorial Donation Information</h2>
+
+        <label>I would like to make this donation:</label><br>
+        <input type="radio" name="donationType" value="honor"> To Honor<br>
+        <input type="radio" name="donationType" value="memory"> In Memory of<br><br>
+
+        <label>Name:</label><br>
+        <input type="text" name="honorName"><br><br>
+
+        <label>Acknowledge Donation to:</label><br>
+        <input type="text" name="ackName"><br><br>
+
+        <label>Address:</label><br>
+        <input type="text" name="ackAddress"><br><br>
+
+        <label>City:</label><br>
+        <input type="text" name="ackCity"><br><br>
+
+        <label>State:</label><br>
+        <select name="ackState">
+            <option value="">Select a State</option>
+            <option value="dhaka">Dhaka</option>
+            <option value="chittagong">Chittagong</option>
+            <option value="rajshahi">Rajshahi</option>
+        </select><br><br>
+
+        <label>Zip:</label><br>
+        <input type="text" name="ackZip"><br><br>
+
+        <h2>Additional Information</h2>
+
+        <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+        <input type="text" name="publicationName"><br><br>
+
+        <input type="checkbox" name="anonymous" value="yes"> I would like my gift to remain anonymous.<br>
+        <input type="checkbox" name="matchingGift" value="yes"> My employer offers a matching gift program.<br>
+        <input type="checkbox" name="acknowledge" value="yes"> Please save the cost of acknowledging this gift.<br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="5" cols="40"></textarea><br><br>
+
+        <label>How may we contact you?</label><br>
+        <input type="checkbox" name="contact" value="email"> E-mail<br>
+        <input type="checkbox" name="contact" value="postal"> Postal Mail<br>
+        <input type="checkbox" name="contact" value="telephone"> Telephone<br><br>
+
+        <label>I would like to receive newsletters about special events by:</label><br>
+        <input type="checkbox" name="newsletter" value="email"> E-mail<br>
+        <input type="checkbox" name="newsletter" value="postal"> Postal Mail<br><br>
+
+        <input type="checkbox" name="info" value="plannedGiving"> I would like information about planned giving.<br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
+<!-- end -->
